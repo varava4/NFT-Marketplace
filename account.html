@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Create Account</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231208132111">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div id="page-preloader" class="preloader">
+		<div class="loader"></div>
+	</div>
+	<div class="wrapper">
+		<header data-scroll="124" data-scroll-show="1000" class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo _icon-logo">Marketplace</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Marketplace</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Rankings</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Connect a wallet</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<button data-da=".menu__body, 992,2" type="button" class="header__button _icon-user button">Sign Up</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="account">
+				<div class="account__container">
+					<div class="account__wrapper">
+						<div class="account__image -ibg"><picture><source srcset="img/account/image01.webp" type="image/webp"><img src="img/account/image01.png" alt="Image"></picture></div>
+						<div class="account__create">
+							<h2 class="account__title">Create account </h2>
+							<p class="account__text text">Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+							<form action="files/sendmail/sendmail.php" method="POST">
+								<input type="text" placeholder="Username" class="account__input account__input--user">
+								<input type="text" placeholder="Email Address" class="account__input input account__input--mail">
+								<input type="password" placeholder="Password" class="account__input account__input--password">
+								<input type="password" placeholder="Confirm Password" class="account__input account__input--password">
+								<button type="submit" class="account__button button">Create account</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<div class="footer__marketplace marketplace-footer">
+						<a href="#" class="marketplace-footer__logo logo _icon-logo">Marketplace</a>
+						<p class="marketplace-footer__text">NFT marketplace UI created with Anima for Figma.</p>
+						<p class="marketplace-footer__text">Join our community</p>
+						<div class="marketplace-footer__social">
+							<a href="#" class="marketplace-footer__icon _icon-discord"></a>
+							<a href="#" class="marketplace-footer__icon _icon-youtube"></a>
+							<a href="#" class="marketplace-footer__icon _icon-twitter"></a>
+							<a href="#" class="marketplace-footer__icon _icon-instagram"></a>
+						</div>
+					</div>
+					<div class="footer__explore explore-footer">
+						<p class="explore-footer__title">Explore</p>
+						<a href="#" class="explore-footer__link">Marketplace</a>
+						<a href="#" class="explore-footer__link">Rankings</a>
+						<a href="#" class="explore-footer__link">Connect a wallet</a>
+					</div>
+					<div class="footer__join join-footer">
+						<p class="join-footer__title">Join our weekly digest</p>
+						<p class="join-footer__text">Get exclusive promotions & updates straight to your inbox.</p>
+						<form action="files/sendmail/sendmail.php" method="POST">
+							<input data-required="email" type="text" name="form[email]" data-error="Error" placeholder="Enter your email here" class="join-footer__input input">
+							<button type="submit" class="join-footer__button button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<p class="footer__copy">Ⓒ NFT Market. Use this template freely.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231208132111"></script>
+</body>
+
+</html>
